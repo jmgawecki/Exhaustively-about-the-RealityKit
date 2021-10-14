@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:RealityKit basic setup/MyProjects name/MyProjects name.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Chapter1Project1/Chapter1Project1/Chapter1Project1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Chapter2Project1/Chapter2Project1/Chapter2Project1.xcodeproj">
+   </FileRef>
+</Workspace>
