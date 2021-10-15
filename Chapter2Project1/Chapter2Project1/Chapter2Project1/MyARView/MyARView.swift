@@ -12,9 +12,6 @@ import Combine
 
 
 class MyARView: ARView {
-    
-    let referenceImage = ARReferenceImage.referenceImages(inGroupNamed: <#T##String#>)
-    
     let anchorEntity = AnchorEntity(
         plane: .vertical,
         classification: .wall,
@@ -29,7 +26,7 @@ class MyARView: ARView {
     
     required init() {
         super.init(frame: .zero)
-        
+        configureWithObjectTracking()
         session.delegate = self
     }
     
