@@ -9,6 +9,22 @@ import RealityKit
 import ARKit
 
 extension MyARView {
+    func configureWithBodyTracking() {
+        guard ARBodyTrackingConfiguration.isSupported
+        else { return }
+        
+    }
+    
+    func configureWithFaceTracking() {
+        guard ARFaceTrackingConfiguration.isSupported
+        else { return }
+        
+        let configuration = ARFaceTrackingConfiguration()
+        configuration.maximumNumberOfTrackedFaces = 1
+        
+        session.run(configuration)
+    }
+    
     func configureWithImageTracking() {
         guard let trackedImages = ARReferenceImage.referenceImages(
             inGroupNamed: "AR Images",

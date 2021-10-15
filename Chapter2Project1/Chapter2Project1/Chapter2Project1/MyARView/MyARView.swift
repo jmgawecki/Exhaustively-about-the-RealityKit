@@ -12,6 +12,8 @@ import Combine
 
 
 class MyARView: ARView {
+    let faceManager = FaceManager()
+    
     let anchorEntity = AnchorEntity(
         plane: .vertical,
         classification: .wall,
@@ -26,7 +28,7 @@ class MyARView: ARView {
     
     required init() {
         super.init(frame: .zero)
-        configureWithObjectTracking()
+        configureWithFaceTracking()
         session.delegate = self
     }
     

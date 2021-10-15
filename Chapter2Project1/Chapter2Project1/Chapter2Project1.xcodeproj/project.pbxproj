@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0F46DC2719B534004B3135 /* FaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F46DB2719B534004B3135 /* FaceManager.swift */; };
 		EFD7347A271771540092852A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD73479271771540092852A /* AppDelegate.swift */; };
 		EFD7347C271771540092852A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7347B271771540092852A /* ContentView.swift */; };
 		EFD73480271771550092852A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD7347F271771550092852A /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF0F46DB2719B534004B3135 /* FaceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceManager.swift; sourceTree = "<group>"; };
 		EFD73476271771540092852A /* Chapter2Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter2Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD73479271771540092852A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFD7347B271771540092852A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF0F46DA2719B52E004B3135 /* FaceManager */ = {
+			isa = PBXGroup;
+			children = (
+				EF0F46DB2719B534004B3135 /* FaceManager.swift */,
+			);
+			path = FaceManager;
+			sourceTree = "<group>";
+		};
 		EFD7346D271771540092852A = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 		EFD73478271771540092852A /* Chapter2Project1 */ = {
 			isa = PBXGroup;
 			children = (
+				EF0F46DA2719B52E004B3135 /* FaceManager */,
 				EFD73499271771A00092852A /* MyARView */,
 				EFD73479271771540092852A /* AppDelegate.swift */,
 				EFD7347B271771540092852A /* ContentView.swift */,
@@ -158,6 +169,7 @@
 				EFD7347C271771540092852A /* ContentView.swift in Sources */,
 				EFD73498271771900092852A /* MyARView.swift in Sources */,
 				EFD7349B27177EC80092852A /* MyARView+Configuration.swift in Sources */,
+				EF0F46DC2719B534004B3135 /* FaceManager.swift in Sources */,
 				EFD7347A271771540092852A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
