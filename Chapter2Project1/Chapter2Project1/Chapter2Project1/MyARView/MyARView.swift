@@ -21,14 +21,14 @@ class MyARView: ARView {
     )
     
     lazy var smallBall: Entity = {
-        let mesh = MeshResource.generateSphere(radius: 0.2)
+        let mesh = MeshResource.generateSphere(radius: 0.05)
         let ball = ModelEntity(mesh: mesh)
         return ball
     }()
     
     required init() {
         super.init(frame: .zero)
-        configureWithFaceTracking()
+        configureWithBodyTracking()
         session.delegate = self
     }
     

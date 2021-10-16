@@ -9,12 +9,6 @@ import RealityKit
 import ARKit
 
 extension MyARView {
-    func configureWithBodyTracking() {
-        guard ARBodyTrackingConfiguration.isSupported
-        else { return }
-        
-    }
-    
     func configureWithFaceTracking() {
         guard ARFaceTrackingConfiguration.isSupported
         else { return }
