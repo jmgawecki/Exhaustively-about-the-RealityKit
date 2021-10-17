@@ -13,23 +13,27 @@ import Combine
 
 class MyARView: ARView {
     var skeleton: [Entity] = []
+    var dancingRobot: BodyTrackedEntity?
     
+    var subscriptions: Set<AnyCancellable> = []
+
     let anchorEntity = AnchorEntity(
         plane: .vertical,
         classification: .wall,
-        minimumBounds: [1,1]
+        minimumBounds: [2,2]
     )
-    
-    lazy var smallBall: Entity = {
-        let mesh = MeshResource.generateSphere(radius: 0.05)
-        let ball = ModelEntity(mesh: mesh)
-        return ball
-    }()
     
     required init() {
         super.init(frame: .zero)
         configureWithBodyTracking()
         session.delegate = self
+        Entity.loadBodyTrackedAsync(named: "robot")
+            .sink { _ in
+            } receiveValue: { dancingRobot in
+                guard let dancingRobot = dancingRobot as? BodyTrackedEntity
+                else { return }
+            }
+            .store(in: &subscriptions)
     }
     
     @MainActor @objc required dynamic init?(coder decoder: NSCoder) {

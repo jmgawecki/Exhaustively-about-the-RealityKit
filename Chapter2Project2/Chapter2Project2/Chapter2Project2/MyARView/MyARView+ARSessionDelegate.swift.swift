@@ -13,29 +13,45 @@ extension MyARView: ARSessionDelegate {
         guard let bodyAnchor = anchors.first as? ARBodyAnchor
         else { return }
         
-        let skeleton = bodyAnchor.skeleton.jointModelTransforms
-        
-        let anchorEntity = AnchorEntity(anchor: bodyAnchor)
-        scene.addAnchor(anchorEntity)
-        
-        
-        
-        for joint in skeleton {
-            let sphere = smallBall.clone(recursive: false)
-            sphere.transform = Transform.init(matrix: joint)
-            self.skeleton.append(sphere)
-            anchorEntity.addChild(sphere)
+        if let dancingRobot = dancingRobot {
+            let firstDancer = dancingRobot.clone(recursive: false)
+            firstDancer.position = [1,0,-0,5]
+            let secondDancer = dancingRobot.clone(recursive: false)
+            secondDancer.position = [-1,0,0.5]
+            
+            let anchorEntity = AnchorEntity(anchor: bodyAnchor)
+            scene.addAnchor(anchorEntity)
+            anchorEntity.addChild(firstDancer)
+            anchorEntity.addChild(secondDancer)
         }
+        
+        
+//        let skeleton = bodyAnchor.skeleton.jointModelTransforms
+//
+//        let anchorEntity = AnchorEntity(anchor: bodyAnchor)
+//        scene.addAnchor(anchorEntity)
+//
+//
+//
+//        for joint in skeleton {
+//            let sphere = smallBall.clone(recursive: false)
+//            sphere.transform = Transform.init(matrix: joint)
+//            self.skeleton.append(sphere)
+//            anchorEntity.addChild(sphere)
+//        }
     }
     
     func session(_ session: ARSession, didUpdate anchors: [ARAnchor]) {
         guard let bodyAnchor = anchors.first as? ARBodyAnchor
         else { return }
         
-        let skeleton = bodyAnchor.skeleton.jointModelTransforms
         
-        for (index, joint) in skeleton.enumerated() {
-            self.skeleton[index].transform = Transform.init(matrix: joint)
-        }
+        
+//
+//        let skeleton = bodyAnchor.skeleton.jointModelTransforms
+//
+//        for (index, joint) in skeleton.enumerated() {
+//            self.skeleton[index].transform = Transform.init(matrix: joint)
+//        }
     }
 }

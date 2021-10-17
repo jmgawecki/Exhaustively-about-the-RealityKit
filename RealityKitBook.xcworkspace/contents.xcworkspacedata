@@ -13,4 +13,10 @@
    <FileRef
       location = "group:Chapter2Project2/Chapter2Project2/Chapter2Project2.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Chapter3Project1/Chapter3Project1/Chapter3Project1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Chapter5Project1/Chapter5Project1/Chapter5Project1.xcodeproj">
+   </FileRef>
 </Workspace>

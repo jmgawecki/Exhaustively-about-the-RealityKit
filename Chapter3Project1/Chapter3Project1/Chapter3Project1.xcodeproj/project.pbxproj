@@ -7,30 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF0F46EC271B00B5004B3135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F46EB271B00B5004B3135 /* AppDelegate.swift */; };
-		EF0F46EE271B00B5004B3135 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F46ED271B00B5004B3135 /* ContentView.swift */; };
-		EF0F46F2271B00B6004B3135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0F46F1271B00B6004B3135 /* Assets.xcassets */; };
-		EF0F46F5271B00B6004B3135 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0F46F4271B00B6004B3135 /* Preview Assets.xcassets */; };
-		EF0F46FC271B00EB004B3135 /* MyARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F46FB271B00EB004B3135 /* MyARView.swift */; };
-		EF0F46FE271B00FB004B3135 /* MyARView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F46FD271B00FB004B3135 /* MyARView+Configuration.swift */; };
-		EF0F4700271B0110004B3135 /* MyARView+ARSessionDelegate.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F46FF271B0110004B3135 /* MyARView+ARSessionDelegate.swift.swift */; };
-		EF0F4728271B452F004B3135 /* robot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EF0F4727271B452F004B3135 /* robot.usdz */; };
+		EF0F4711271B2CC6004B3135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F4710271B2CC6004B3135 /* AppDelegate.swift */; };
+		EF0F4713271B2CC6004B3135 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F4712271B2CC6004B3135 /* ContentView.swift */; };
+		EF0F4717271B2CC7004B3135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0F4716271B2CC7004B3135 /* Assets.xcassets */; };
+		EF0F471A271B2CC7004B3135 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0F4719271B2CC7004B3135 /* Preview Assets.xcassets */; };
+		EF0F4721271B36FE004B3135 /* MyARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F4720271B36FE004B3135 /* MyARView.swift */; };
+		EF0F4723271B370D004B3135 /* MyARView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F4722271B370C004B3135 /* MyARView+Configuration.swift */; };
+		EF0F4725271B371A004B3135 /* MyARView+ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0F4724271B371A004B3135 /* MyARView+ARSessionDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF0F46E8271B00B5004B3135 /* Chapter2Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter2Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF0F46EB271B00B5004B3135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF0F46ED271B00B5004B3135 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EF0F46F1271B00B6004B3135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF0F46F4271B00B6004B3135 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EF0F46FB271B00EB004B3135 /* MyARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARView.swift; sourceTree = "<group>"; };
-		EF0F46FD271B00FB004B3135 /* MyARView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyARView+Configuration.swift"; sourceTree = "<group>"; };
-		EF0F46FF271B0110004B3135 /* MyARView+ARSessionDelegate.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyARView+ARSessionDelegate.swift.swift"; sourceTree = "<group>"; };
-		EF0F4727271B452F004B3135 /* robot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot.usdz; sourceTree = "<group>"; };
+		EF0F470D271B2CC6004B3135 /* Chapter3Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter3Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0F4710271B2CC6004B3135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF0F4712271B2CC6004B3135 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF0F4716271B2CC7004B3135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF0F4719271B2CC7004B3135 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF0F4720271B36FE004B3135 /* MyARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARView.swift; sourceTree = "<group>"; };
+		EF0F4722271B370C004B3135 /* MyARView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyARView+Configuration.swift"; sourceTree = "<group>"; };
+		EF0F4724271B371A004B3135 /* MyARView+ARSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyARView+ARSessionDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF0F46E5271B00B5004B3135 /* Frameworks */ = {
+		EF0F470A271B2CC6004B3135 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,97 +38,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF0F46DF271B00B5004B3135 = {
+		EF0F4704271B2CC6004B3135 = {
 			isa = PBXGroup;
 			children = (
-				EF0F46EA271B00B5004B3135 /* Chapter2Project2 */,
-				EF0F46E9271B00B5004B3135 /* Products */,
+				EF0F470F271B2CC6004B3135 /* Chapter3Project1 */,
+				EF0F470E271B2CC6004B3135 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF0F46E9271B00B5004B3135 /* Products */ = {
+		EF0F470E271B2CC6004B3135 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF0F46E8271B00B5004B3135 /* Chapter2Project2.app */,
+				EF0F470D271B2CC6004B3135 /* Chapter3Project1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF0F46EA271B00B5004B3135 /* Chapter2Project2 */ = {
+		EF0F470F271B2CC6004B3135 /* Chapter3Project1 */ = {
 			isa = PBXGroup;
 			children = (
-				EF0F4726271B452F004B3135 /* character */,
-				EF0F4701271B0128004B3135 /* MyARView */,
-				EF0F46EB271B00B5004B3135 /* AppDelegate.swift */,
-				EF0F46ED271B00B5004B3135 /* ContentView.swift */,
-				EF0F46F1271B00B6004B3135 /* Assets.xcassets */,
-				EF0F46F3271B00B6004B3135 /* Preview Content */,
+				EF0F4710271B2CC6004B3135 /* AppDelegate.swift */,
+				EF0F4712271B2CC6004B3135 /* ContentView.swift */,
+				EF0F4716271B2CC7004B3135 /* Assets.xcassets */,
+				EF0F4718271B2CC7004B3135 /* Preview Content */,
+				EF0F4720271B36FE004B3135 /* MyARView.swift */,
+				EF0F4722271B370C004B3135 /* MyARView+Configuration.swift */,
+				EF0F4724271B371A004B3135 /* MyARView+ARSessionDelegate.swift */,
 			);
-			path = Chapter2Project2;
+			path = Chapter3Project1;
 			sourceTree = "<group>";
 		};
-		EF0F46F3271B00B6004B3135 /* Preview Content */ = {
+		EF0F4718271B2CC7004B3135 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				EF0F46F4271B00B6004B3135 /* Preview Assets.xcassets */,
+				EF0F4719271B2CC7004B3135 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		EF0F4701271B0128004B3135 /* MyARView */ = {
-			isa = PBXGroup;
-			children = (
-				EF0F46FB271B00EB004B3135 /* MyARView.swift */,
-				EF0F46FD271B00FB004B3135 /* MyARView+Configuration.swift */,
-				EF0F46FF271B0110004B3135 /* MyARView+ARSessionDelegate.swift.swift */,
-			);
-			path = MyARView;
-			sourceTree = "<group>";
-		};
-		EF0F4726271B452F004B3135 /* character */ = {
-			isa = PBXGroup;
-			children = (
-				EF0F4727271B452F004B3135 /* robot.usdz */,
-			);
-			path = character;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF0F46E7271B00B5004B3135 /* Chapter2Project2 */ = {
+		EF0F470C271B2CC6004B3135 /* Chapter3Project1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF0F46F8271B00B6004B3135 /* Build configuration list for PBXNativeTarget "Chapter2Project2" */;
+			buildConfigurationList = EF0F471D271B2CC7004B3135 /* Build configuration list for PBXNativeTarget "Chapter3Project1" */;
 			buildPhases = (
-				EF0F46E4271B00B5004B3135 /* Sources */,
-				EF0F46E5271B00B5004B3135 /* Frameworks */,
-				EF0F46E6271B00B5004B3135 /* Resources */,
+				EF0F4709271B2CC6004B3135 /* Sources */,
+				EF0F470A271B2CC6004B3135 /* Frameworks */,
+				EF0F470B271B2CC6004B3135 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Chapter2Project2;
-			productName = Chapter2Project2;
-			productReference = EF0F46E8271B00B5004B3135 /* Chapter2Project2.app */;
+			name = Chapter3Project1;
+			productName = Chapter3Project1;
+			productReference = EF0F470D271B2CC6004B3135 /* Chapter3Project1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF0F46E0271B00B5004B3135 /* Project object */ = {
+		EF0F4705271B2CC6004B3135 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					EF0F46E7271B00B5004B3135 = {
+					EF0F470C271B2CC6004B3135 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = EF0F46E3271B00B5004B3135 /* Build configuration list for PBXProject "Chapter2Project2" */;
+			buildConfigurationList = EF0F4708271B2CC6004B3135 /* Build configuration list for PBXProject "Chapter3Project1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,46 +119,45 @@
 				en,
 				Base,
 			);
-			mainGroup = EF0F46DF271B00B5004B3135;
-			productRefGroup = EF0F46E9271B00B5004B3135 /* Products */;
+			mainGroup = EF0F4704271B2CC6004B3135;
+			productRefGroup = EF0F470E271B2CC6004B3135 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF0F46E7271B00B5004B3135 /* Chapter2Project2 */,
+				EF0F470C271B2CC6004B3135 /* Chapter3Project1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EF0F46E6271B00B5004B3135 /* Resources */ = {
+		EF0F470B271B2CC6004B3135 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0F46F5271B00B6004B3135 /* Preview Assets.xcassets in Resources */,
-				EF0F4728271B452F004B3135 /* robot.usdz in Resources */,
-				EF0F46F2271B00B6004B3135 /* Assets.xcassets in Resources */,
+				EF0F471A271B2CC7004B3135 /* Preview Assets.xcassets in Resources */,
+				EF0F4717271B2CC7004B3135 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF0F46E4271B00B5004B3135 /* Sources */ = {
+		EF0F4709271B2CC6004B3135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0F46EE271B00B5004B3135 /* ContentView.swift in Sources */,
-				EF0F46FC271B00EB004B3135 /* MyARView.swift in Sources */,
-				EF0F46FE271B00FB004B3135 /* MyARView+Configuration.swift in Sources */,
-				EF0F46EC271B00B5004B3135 /* AppDelegate.swift in Sources */,
-				EF0F4700271B0110004B3135 /* MyARView+ARSessionDelegate.swift.swift in Sources */,
+				EF0F4713271B2CC6004B3135 /* ContentView.swift in Sources */,
+				EF0F4723271B370D004B3135 /* MyARView+Configuration.swift in Sources */,
+				EF0F4725271B371A004B3135 /* MyARView+ARSessionDelegate.swift in Sources */,
+				EF0F4721271B36FE004B3135 /* MyARView.swift in Sources */,
+				EF0F4711271B2CC6004B3135 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EF0F46F6271B00B6004B3135 /* Debug */ = {
+		EF0F471B271B2CC7004B3135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +218,7 @@
 			};
 			name = Debug;
 		};
-		EF0F46F7271B00B6004B3135 /* Release */ = {
+		EF0F471C271B2CC7004B3135 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,14 +273,14 @@
 			};
 			name = Release;
 		};
-		EF0F46F9271B00B6004B3135 /* Debug */ = {
+		EF0F471E271B2CC7004B3135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chapter2Project2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Chapter3Project1/Preview Content\"";
 				DEVELOPMENT_TEAM = 9HHDDYFD2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -316,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jmg.Chapter1;
+				PRODUCT_BUNDLE_IDENTIFIER = jmg.Chapter3Project1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,14 +304,14 @@
 			};
 			name = Debug;
 		};
-		EF0F46FA271B00B6004B3135 /* Release */ = {
+		EF0F471F271B2CC7004B3135 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chapter2Project2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Chapter3Project1/Preview Content\"";
 				DEVELOPMENT_TEAM = 9HHDDYFD2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -347,7 +327,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jmg.Chapter1;
+				PRODUCT_BUNDLE_IDENTIFIER = jmg.Chapter3Project1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -358,25 +338,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF0F46E3271B00B5004B3135 /* Build configuration list for PBXProject "Chapter2Project2" */ = {
+		EF0F4708271B2CC6004B3135 /* Build configuration list for PBXProject "Chapter3Project1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF0F46F6271B00B6004B3135 /* Debug */,
-				EF0F46F7271B00B6004B3135 /* Release */,
+				EF0F471B271B2CC7004B3135 /* Debug */,
+				EF0F471C271B2CC7004B3135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF0F46F8271B00B6004B3135 /* Build configuration list for PBXNativeTarget "Chapter2Project2" */ = {
+		EF0F471D271B2CC7004B3135 /* Build configuration list for PBXNativeTarget "Chapter3Project1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF0F46F9271B00B6004B3135 /* Debug */,
-				EF0F46FA271B00B6004B3135 /* Release */,
+				EF0F471E271B2CC7004B3135 /* Debug */,
+				EF0F471F271B2CC7004B3135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF0F46E0271B00B5004B3135 /* Project object */;
+	rootObject = EF0F4705271B2CC6004B3135 /* Project object */;
 }
