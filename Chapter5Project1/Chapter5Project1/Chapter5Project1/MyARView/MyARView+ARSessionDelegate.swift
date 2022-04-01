@@ -14,22 +14,22 @@ extension MyARView: ARSessionDelegate {
         switch camera.trackingState {
         case .notAvailable:
             delegate?.didUpdateTrackingState(with: .notAvailable)
-            
+
         case .limited(.initializing):
             delegate?.didUpdateTrackingState(with: .initialising)
-            
+
         case .limited(.excessiveMotion):
             delegate?.didUpdateTrackingState(with: .excessiveMotion)
-            
+
         case .limited(.insufficientFeatures):
             delegate?.didUpdateTrackingState(with: .insufficientFeatures)
-            
+
         case .limited(.relocalizing):
             delegate?.didUpdateTrackingState(with: .relocalising)
-            
+
         case .limited(_):
             delegate?.didUpdateTrackingState(with: .limitedUnknown)
-            
+
         case .normal:
             delegate?.didUpdateTrackingState(with: .normal)
         }
